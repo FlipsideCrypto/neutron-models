@@ -13,7 +13,7 @@ sources:
     tables:
       - name: blocks
       - name: transactions
-      - name: tx_counts
+      - name: tx_count
   - name: complete_streamline
     database: "{{ target.database }}"
     schema: streamline
@@ -32,6 +32,7 @@ sources:
       - name: complete_provider_prices
       - name: complete_token_asset_metadata
       - name: complete_token_prices
+      - name: hourly_prices_coin_gecko
   - name: crosschain_public
     database: crosschain
     schema: bronze_public

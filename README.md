@@ -1,11 +1,11 @@
 ## Repo Set Up
 1. Create a new repository from the [ibc-models-template](https://github.com/FlipsideCrypto/ibc-models-template)
-2. Update all references to `<ibc_chain>` to the new chain name, in lowercase by using find and replace
+2. Update all references to `neutron` to the new chain name, in lowercase by using find and replace
 3. Update the fsc-ibc package version in `packages.yml` to the latest version
 4. Set up the rest of the dbt project, where applicable, including but not limited to:
     - `dbt_project.yml` (enable/disable packages, vars, etc.)
     - `.github/workflows` (update tags, etc.)
-    - `overview.md` (update `<ibc_chain>`, table references, docs etc.)
+    - `overview.md` (update `neutron`, table references, docs etc.)
     - `sources.yml` (update schemas, tables etc.)
     - `requirements.txt` (update dependencies)
     - other files where applicable

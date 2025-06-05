@@ -82,7 +82,7 @@ def create_message(**kwargs):
                         "type": "button",
                         "text": "View Warnings",
                         "style": "primary",
-                        "url": "https://github.com/FlipsideCrypto/<ibc_chain>-models/actions",
+                        "url": "https://github.com/FlipsideCrypto/neutron-models/actions",
                         "confirm": {
                             "title": f"{kwargs['warn_count']} Warnings",
                             "text": "\n".join(kwargs["messages"]["warn"]) if len(kwargs["messages"]["warn"]) > 0 else "None :)",
